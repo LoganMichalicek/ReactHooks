@@ -28,13 +28,13 @@ const UseEffect = function () {
   useEffect(() => {
     // Called only once when rendered
     // Empty array for second parameter
-    console.log('counter, increase');
+    // console.log('counter, increase');
   }, []);
 
   useEffect(() => {
     // Called anytime any local storage is changed and on render
     // No second parameter
-    console.log('A state changed!');
+    // console.log('A state changed!');
   });
 
   useEffect(() => {
