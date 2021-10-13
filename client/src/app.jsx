@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import UseState from './hooks/useState.jsx';
 import UseReducer from './hooks/useReducer.jsx';
 import UseEffect from './hooks/useEffect.jsx';
+import UseRef from './hooks/useRef.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -16,6 +17,7 @@ class App extends React.Component {
         <UseState />
         <UseReducer />
         <UseEffect />
+        <UseRef />
       </div>
     );
   }
