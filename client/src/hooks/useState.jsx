@@ -3,6 +3,14 @@ import React, {useState} from 'react';
 let UseState = function () {
   const [counter, setCounter] = useState(0);
   const [increase, setIncrease] = useState(1);
+  // This syntax is a shorter way of writing the following:
+  //     const counterState = useState(0);
+  //     const counter = counterState[0];
+  //     const setCounter = counterState[1];
+  // useState returns an array with two items:
+  //     1. The object state
+  //     2. A function to set the value of the state
+
 
   return (
     <div id={"use-state-container"} className={"hook-container"}>
