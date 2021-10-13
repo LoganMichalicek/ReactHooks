@@ -1,0 +1,18 @@
+.counter-button,
+.increase-button {
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.hook-container {
+  border: 3px dashed aqua;
+}
+
+#hook-name.green {
+  color: green;
+}
+
+#hook-name.red {
+  color: red;
+}

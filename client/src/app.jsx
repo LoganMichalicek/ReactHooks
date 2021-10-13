@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import UseState from './hooks/useState.jsx';
+import UseReducer from './hooks/useReducer.jsx';
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -9,8 +12,8 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h2>Hello!</h2>
-        <p>This is a paragraph</p>
+        <UseState />
+        <UseReducer />
       </div>
     );
   }
