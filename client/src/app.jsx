@@ -8,6 +8,7 @@ import UseRef from './hooks/useRef.jsx';
 import UseLayoutEffect from './hooks/useLayoutEffect.jsx';
 import UseImperativeHandle from './hooks/useImperativeHandle.jsx';
 import UseContext from './hooks/useContext.jsx';
+import UseMemo from './hooks/useMemo.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -24,6 +25,7 @@ class App extends React.Component {
         <UseLayoutEffect />
         <UseImperativeHandle />
         <UseContext />
+        <UseMemo />
       </div>
     );
   }
