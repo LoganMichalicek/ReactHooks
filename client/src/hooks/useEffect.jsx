@@ -49,8 +49,6 @@ const UseEffect = function () {
     }
   }, [counter]);
 
-  useEffect
-
   return (
     <div id={"use-effect-container"} className={"hook-container"}>
       <h3

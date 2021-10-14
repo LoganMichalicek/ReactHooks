@@ -1,6 +1,6 @@
 import React, {forwardRef, useImperativeHandle, useState} from 'react';
 
-// Provides state change capabilities to a parent component
+// Provides child state change capabilities to a parent component
 // Here's the process:
 // 1. The parent has a reference to the child component using useRef
 //    a. Note that it is passed similarly to a prop as ref={childRef}

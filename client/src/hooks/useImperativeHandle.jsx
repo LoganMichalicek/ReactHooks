@@ -1,7 +1,7 @@
 import React, {useRef} from 'react';
 import Button from './subcomponents/Button.jsx';
 
-// See Buttin.jsx for more information
+// See subcomponents/Button.jsx for more information
 
 const UseImperativeHandle = () => {
   const buttonRef = useRef(null);
